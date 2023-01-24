@@ -2,7 +2,6 @@ import { projects } from './data'
 
 const projectsContainer = document.getElementById('projects')
 const contactForm = document.getElementById('contact-form')
-const popup = document.getElementById('popup')
 const sendBtn = document.querySelector('[data-send]')
 
 function renderProjects() {
@@ -68,7 +67,6 @@ async function handleFormSubmit(event) {
       body: new URLSearchParams(formData)
     })
     if (!res.ok) throw new Error(res.status)
-    showPopup('Your message is successfully sent')
     sendBtn.disabled = true
   } catch {}
 }
