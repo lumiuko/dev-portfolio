@@ -33,10 +33,10 @@
 
     <header class="px-4 tablet:px-8 bg-pattern-rings bg-no-repeat bg-[-350px_120px]">
       <div class="desktop:container mx-auto box-content flex flex-col justify-between items-center tablet:flex-row tablet:px-0 border-solid border-b-2 border-light pb-20">
-        <picture class="tablet:order-1 max-w-small tablet:self-start tablet:w-full relative -z-10">
-          <source srcset="/assets/image-profile-desktop.webp" media="(min-width: 1110px)" width="445" />
-          <source srcset="/assets/image-profile-tablet.webp" media="(min-width: 768px)" width="322" />
-          <img src="/assets/image-profile-mobile.webp" alt="Profile picture" width="174" />
+        <picture class="tablet:order-1 tablet:self-start tablet:w-full relative -z-10 max-w-[174px] tablet:max-w-small">
+          <source srcset="/assets/image-profile-desktop.webp" media="(min-width: 1110px)" />
+          <source srcset="/assets/image-profile-tablet.webp" media="(min-width: 768px)" />
+          <img src="/assets/image-profile-mobile.webp" alt="Profile picture" />
         </picture>
         <div class="text-center mt-10 tablet:mt-36 desktop:mt-48 tablet:text-left">
           <h1 class="text-title font-bold mb-6 tablet:text-72 desktop:text-xl leading-none tablet:w-[115%] tablet:mb-[3.75rem] desktop:mb-[2.625rem]">
