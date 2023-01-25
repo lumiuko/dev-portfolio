@@ -20,6 +20,11 @@ module.exports = {
     maxWidth: {
       small: '445px'
     },
+    letterSpacing: {
+      xl: '-2.5px',
+      l: '-1.5px',
+      link: '2.29px'
+    },
     fontSize: {
       xl: '5.5rem',
       l: '3rem',
