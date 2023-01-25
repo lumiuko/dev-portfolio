@@ -21,7 +21,8 @@ button {
   transition: visibility 0.2s ease, opacity 0.2s ease;
 }
 
-.card-cover:hover > .card-cover-info {
+.card-cover:hover > .card-cover-info,
+.card-cover:focus-within > .card-cover-info {
   visibility: visible;
   opacity: 1;
 }

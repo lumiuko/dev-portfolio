@@ -18,14 +18,14 @@ function renderProjects() {
 
     html += `
       <div class="card">
-        <div class="relative card-cover">
+        <div class="relative card-cover" tabindex="0">
           <img src="${item.image}" alt="${item.title} screenshot">
           <div class="cursor-pointer hidden desktop:flex flex-col justify-center items-center gap-12 absolute inset-0 card-cover-info bg-semi-black">
             ${links}
           </div>
         </div>
         <h3 class="uppercase text-m font-bold mt-5">${item.title}</h3>
-        <ul class="flex text-light-gray gap-[1.125rem]">
+        <ul class="flex text-light-gray gap-[1.125rem] uppercase">
           ${item.stack.map(technology => `<li>${technology}</li>`).join('')}
         </ul>
         <div class="flex mt-5 gap-[1.875rem] desktop:hidden">
