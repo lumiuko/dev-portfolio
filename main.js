@@ -24,7 +24,7 @@ function renderProjects() {
             ${links}
           </div>
         </div>
-        <h5 class="uppercase text-m font-bold mt-5">${item.title}</h5>
+        <h3 class="uppercase text-m font-bold mt-5">${item.title}</h3>
         <ul class="flex text-light-gray gap-[1.125rem]">
           ${item.stack.map(technology => `<li>${technology}</li>`).join('')}
         </ul>

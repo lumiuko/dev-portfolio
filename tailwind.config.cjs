@@ -15,6 +15,9 @@ module.exports = {
       backgroundImage: {
         'pattern-circle': `url('/assets/pattern-circle.svg')`,
         'pattern-rings': `url('/assets/pattern-rings.svg')`
+      },
+      backgroundPosition: {
+        'half-bottom-right': 'bottom right -250px'
       }
     },
     maxWidth: {
