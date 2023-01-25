@@ -65,3 +65,16 @@ button {
 .input-group:has(input:focus, textarea:focus)::after {
   transform: scaleX(1);
 }
+
+@media (min-width: 1100px) {
+  picture::before {
+    content: '';
+    position: absolute;
+    background-image: url('./assets/pattern-circle.svg');
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 129px;
+    height: 129px;
+  }
+}
