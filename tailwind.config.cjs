@@ -33,7 +33,8 @@ module.exports = {
       default: '1.125rem',
       72: '4.5rem',
       40: '2.5rem',
-      32: '2rem'
+      32: '2rem',
+      16: '1rem'
     },
     fontFamily: {
       sans: ['Space Grotesk', 'sans-serif']
