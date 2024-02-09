@@ -13,9 +13,9 @@
   </head>
   <body class="text-white tablet:text-default font-medium">
     <nav class="px-4 tablet:px-8 absolute w-full">
-      <div class="desktop:container left-0 right-0 mx-auto flex flex-col items-center py-5 gap-5 tablet:flex-row tablet:justify-between tablet:py-7 desktop:py-10">
-        <span class="font-bold text-m desktop:text-32">adamkeyes</span>
-        <div class="flex gap-6 tablet:gap-8 tablet:mr-[1.875rem]">
+      <div class="max-w-[1110px] left-0 right-0 mx-auto flex flex-col items-center py-5 gap-5 tablet:flex-row tablet:justify-between tablet:py-7 desktop:py-10">
+        <span class="font-bold text-m leading-8 tablet:text-32">adamkeyes</span>
+        <div class="flex gap-6 tablet:gap-8 desktop:mr-[1.875rem]">
           <a href="https://github.com/flxemt" target="_blank" aria-label="GitHub">
             <img class="w-[20px] tablet:w-auto" src="/assets/icon-github.svg" alt="GitHub" aria-hidden="true" />
           </a>
@@ -32,94 +32,90 @@
       </div>
     </nav>
 
-    <header class="px-4 tablet:px-8 bg-pattern-rings bg-no-repeat bg-[-350px_120px]">
-      <div class="desktop:container mx-auto box-content flex flex-col justify-between items-center tablet:flex-row tablet:px-0 border-solid border-b-2 border-light pb-20 desktop:pb-[6.5rem]">
-        <picture class="tablet:order-1 tablet:self-start tablet:w-full relative -z-10 max-w-[174px] tablet:max-w-small">
-          <source srcset="/assets/image-profile-desktop.webp" media="(min-width: 1110px)" />
-          <source srcset="/assets/image-profile-tablet.webp" media="(min-width: 768px)" />
-          <img src="/assets/image-profile-mobile.webp" alt="Profile picture" />
-        </picture>
-        <div class="text-center mt-10 tablet:self-start tablet:mt-[9.375rem] desktop:mt-[12.5rem] tablet:text-left">
-          <h1 class="text-title font-bold mb-6 tablet:text-72 desktop:text-xl leading-none tablet:w-[115%] tablet:mb-[3.75rem] desktop:mb-[2.75rem] tracking-l">
-            Nice to meet you! I’m <span class="border-b-4 desktop:border-b-[6px] border-lime inline-block">Adam Keyes</span>.
-          </h1>
-          <p class="text-light-gray mb-6 tablet:mb-[2.125rem] desktop:mb-[4.125rem] tablet:max-w-small">
-            Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.
-          </p>
-          <a href="#contact" class="font-bold text-16 inline-block uppercase border-b-2 border-lime pb-[0.625rem] hover:text-lime tracking-link">Contact Me</a>
+    <main>
+      <header class="px-4 tablet:px-8 tablet:pr-0 bg-pattern-rings bg-no-repeat bg-[-350px_120px] desktop:pr-8">
+        <div class="max-w-[1110px] mx-auto">
+          <div class="flex flex-col justify-between items-center tablet:flex-row tablet:px-0 border-solid border-b-2 border-light pb-20 desktop:pb-[6.5rem]">
+            <picture class="flex-shrink-0 tablet:order-1 tablet:self-start tablet:w-full relative -z-10 max-w-[174px] tablet:max-w-[322px] desktop:max-w-small">
+              <source srcset="/assets/image-profile-desktop.webp" media="(min-width: 1110px)" />
+              <source srcset="/assets/image-profile-tablet.webp" media="(min-width: 768px)" />
+              <img src="/assets/image-profile-mobile.webp" alt="Profile picture" />
+            </picture>
+            <div class="text-center mt-10 tablet:self-start tablet:mt-[9.375rem] desktop:mt-[12.5rem] tablet:text-left">
+              <h1 class="text-title font-bold mb-6 tablet:text-72 desktop:text-xl leading-none tablet:w-[115%] tablet:mb-[3.75rem] desktop:mb-[2.75rem] tracking-l">Nice to <span class="tablet:block desktop:inline">meet you! I’m </span><span class="border-b-4 desktop:border-b-[6px] border-lime">Adam Keyes</span>.
+              </h1>
+              <p class="text-light-gray mb-6 tablet:mb-[2.125rem] desktop:mb-[4.125rem] tablet:max-w-small">
+                Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.
+              </p>
+              <a href="#contact" class="font-bold text-16 inline-block uppercase border-b-2 border-lime pb-[0.625rem] hover:text-lime tracking-link">Contact Me</a>
+            </div>
+          </div>
+          <div class="grid text-center gap-x-6 gap-y-6 tablet:gap-y-[3.625rem] py-10 tablet:py-[3.25rem] desktop:py-[4.5rem] tablet:grid-cols-2 tablet:text-left desktop:grid-cols-3">
+            <div>
+              <h2 class="text-32 tablet:text-l font-bold tracking-l">HTML</h2>
+              <p class="text-light-gray">4 Years Experience</p>
+            </div>
+            <div>
+              <h2 class="text-32 tablet:text-l font-bold tracking-l">CSS</h2>
+              <p class="text-light-gray">4 Years Experience</p>
+            </div>
+            <div>
+              <h2 class="text-32 tablet:text-l font-bold tracking-l">Javascript</h2>
+              <p class="text-light-gray">4 Years Experience</p>
+            </div>
+            <div>
+              <h2 class="text-32 tablet:text-l font-bold tracking-l">Accessibility</h2>
+              <p class="text-light-gray">4 Years Experience</p>
+            </div>
+            <div>
+              <h2 class="text-32 tablet:text-l font-bold tracking-l">React</h2>
+              <p class="text-light-gray">3 Years Experience</p>
+            </div>
+            <div>
+              <h2 class="text-32 tablet:text-l font-bold tracking-l">Sass</h2>
+              <p class="text-light-gray">3 Years Experience</p>
+            </div>
+          </div>
         </div>
-
-      </div>
-    </header>
+      </header>
+  
+      <section class="px-4 tablet:px-8 mt-20 tablet:mt-12 desktop:mt-[4.25rem]">
+        <div class="max-w-[1110px] mx-auto mb-20 tablet:mb-[6.25rem] desktop:mb-[8.75rem] ">
+          <div class="flex justify-between items-center mb-10 tablet:mb-[3.75rem] desktop:mb-20">
+            <h2 class="text-title tablet:text-72 desktop:text-xl leading-none font-bold tracking-xl">Projects</h2>
+            <a href="#contact" class="font-bold text-16 inline-block uppercase border-b-2 border-lime hover:text-lime py-[0.625rem] tracking-link">Contact Me</a>
+          </div>
+          <div class="grid tablet:grid-cols-2 gap-y-10 tablet:gap-y-[3.75rem] tablet:gap-x-[1.375rem] desktop:gap-y-[4.25rem] desktop:gap-x-[1.875rem]" id="projects"></div>
+        </div>
+      </section>
+    </main>
     
-    <section class="px-4 tablet:px-8 border-solid border-b-2 tablet:border-b-0 border-light bg-pattern-rings bg-no-repeat bg-half-bottom-right">
-      <div class="desktop:container mx-auto grid text-center gap-x-6 gap-y-6 tablet:gap-y-[3.625rem] py-10 tablet:py-[3.25rem] desktop:py-[4.5rem] tablet:grid-cols-2 tablet:text-left desktop:grid-cols-3">
-        <div>
-          <div class="text-32 tablet:text-l font-bold ">HTML</div>
-          <p class="text-light-gray">4 Years Experience</p>
-        </div>
-        <div>
-          <div class="text-32 tablet:text-l font-bold tracking-l">CSS</div>
-          <p class="text-light-gray">4 Years Experience</p>
-        </div>
-        <div>
-          <div class="text-32 tablet:text-l font-bold tracking-l">Javascript</div>
-          <p class="text-light-gray">4 Years Experience</p>
-        </div>
-        <div>
-          <div class="text-32 tablet:text-l font-bold tracking-l">Accessibility</div>
-          <p class="text-light-gray">4 Years Experience</p>
-        </div>
-        <div>
-          <div class="text-32 tablet:text-l font-bold tracking-l">React</div>
-          <p class="text-light-gray">3 Years Experience</p>
-        </div>
-        <div>
-          <div class="text-32 tablet:text-l font-bold tracking-l">Sass</div>
-          <p class="text-light-gray">3 Years Experience</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="px-4 tablet:px-8">
-      <div class="desktop:container mx-auto mb-20 tablet:mb-[6.25rem] desktop:mb-[8.75rem] mt-20 tablet:mt-12 desktop:mt-[4.25rem]">
-        <div class="flex justify-between items-center mb-10 tablet:mb-[3.75rem] desktop:mb-20">
-          <h2 class="text-title tablet:text-72 desktop:text-xl leading-none font-bold tracking-xl">Projects</h2>
-          <a href="#contact" class="font-bold text-16 inline-block uppercase border-b-2 border-lime hover:text-lime py-[0.625rem] tracking-link">Contact Me</a>
-        </div>
-        <div class="grid tablet:grid-cols-2 gap-y-10 tablet:gap-y-[3.75rem] tablet:gap-x-[1.375rem] desktop:gap-y-[4.25rem] desktop:gap-x-[1.875rem]" id="projects"></div>
-      </div>
-    </section>
-
-    <section class="py-[5.25rem] bg-dark-gray px-4 tablet:px-8 bg-pattern-rings bg-no-repeat bg-[-350px_320px]" id="contact">
-      <div class="desktop:container mx-auto flex flex-col items-center desktop:items-start desktop:flex-row desktop:justify-between gap-[3.125rem]">
+    <footer class="px-4 tablet:px-8 bg-dark-gray py-[3.75rem] tablet:pb-10 bg-pattern-rings bg-no-repeat bg-[left_-350px_bottom_270px] tablet:bg-[left_-368px_bottom_130px] desktop:bg-[left_-205px_bottom_220px] desktop:pt-[5.25rem] desktop:pb-[5.75rem]">
+      <div class="max-w-[1110px] mx-auto flex flex-col items-center desktop:items-start desktop:flex-row desktop:justify-between gap-[3.125rem]">
         <div class="text-center desktop:text-left max-w-small">
           <h2 class="text-title tablet:text-72 desktop:text-xl leading-none mb-5 desktop:mb-9 font-bold tracking-xl">Contact</h2>
-          <p class="font-medium text-light-gray">
+          <p class="font-medium text-light-gray leading-7">
             I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.
           </p>
         </div>
         <form class="flex flex-col max-w-small w-full" id="contact-form" autocomplete="off">
           <div class="input-group">
-            <input class="placeholder:text-light-gray uppercase bg-transparent border-b-2 border-white px-6 py-[1.125rem] focus:outline-none w-full" name="name" type="text" placeholder="Name" data-input />
+            <input class="placeholder:text-light-gray uppercase bg-transparent border-b-2 border-white px-6 pb-[1.125rem] focus:outline-none w-full" name="name" type="text" placeholder="Name" data-input />
           </div>
           <small class="text-red self-end mt-[0.375rem] hidden">Sorry, invalid format here</small>
           <div class="mt-8 input-group">
-            <input class="placeholder:text-light-gray uppercase bg-transparent border-b-2 border-white px-6 py-[1.125rem] focus:outline-none w-full" name="email" type="email" placeholder="Email" data-input />
+            <input class="placeholder:text-light-gray uppercase bg-transparent border-b-2 border-white px-6 pb-[1.125rem] focus:outline-none w-full" name="email" type="email" placeholder="Email" data-input />
           </div>
           <small class="text-red self-end mt-[0.375rem] hidden">Sorry, invalid format here</small>
           <div class="mt-8 input-group textarea">
-            <textarea class="placeholder:text-light-gray uppercase bg-transparent border-b-2 border-white px-6 py-[1.125rem] focus:outline-none resize-none w-full" name="message" placeholder="Message" data-input></textarea>
+            <textarea class="placeholder:text-light-gray uppercase bg-transparent border-b-2 border-white px-6 pb-[1.125rem] focus:outline-none resize-none w-full min-h-[85px]" name="message" placeholder="Message" data-input></textarea>
           </div>
           <small class="text-red self-end mt-[0.375rem] hidden">Sorry, invalid format here</small>
           <button class="mt-8 text-16 font-bold inline-block uppercase border-b-2 border-lime py-[0.625rem] hover:text-lime self-end disabled:cursor-not-allowed tracking-link" data-send>Send message</button>
         </form>
       </div>
-    </section>
-
-    <footer class="px-4 tablet:px-8 bg-dark-gray pb-5 tablet:pb-[0.625rem] desktop:pb-11">
-      <div class="desktop:container left-0 right-0 mx-auto flex flex-col items-center py-5 gap-5 tablet:flex-row tablet:justify-between tablet:py-7 desktop:py-10 border-t-2 border-white ">
-        <span class="font-bold text-m desktop:text-32">adamkeyes</span>
+      <div class="max-w-[1110px] mt-[5.5rem] border-t-2 border-white left-0 right-0 mx-auto flex flex-col items-center pt-10 gap-5 tablet:flex-row tablet:justify-between tablet:pt-[1.875rem] desktop:pt-12 desktop:mt-[5.75rem]">
+        <span class="font-bold text-m leading-8 tablet:text-32">adamkeyes</span>
         <div class="flex gap-6 tablet:gap-8">
           <a href="https://github.com/flxemt" target="_blank" aria-label="GitHub">
             <img class="w-[20px] tablet:w-auto" src="/assets/icon-github.svg" alt="GitHub" aria-hidden="true" />
